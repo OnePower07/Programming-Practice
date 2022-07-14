@@ -6,7 +6,6 @@ int main(){
     int i,a,b;
     cin>>a>>b;
     string A[11] = {"one","two","three","four","five","six","seven","eight","nine","even","odd"};
-
 for (i=a; i<=b; i++){
     if (i>9 && i%2==0)
     {
