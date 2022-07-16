@@ -18,6 +18,6 @@ for (i=a; i<=b; i++){
     else{
         cout<<A[i-1]<<endl;
     }
-}
+} 
     return 0;
 }
