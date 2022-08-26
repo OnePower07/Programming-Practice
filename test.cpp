@@ -1,14 +1,21 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-	// your code goes here
-	int n;
-	int a[n];
+	int n,i,count=0;
 	cin>>n;
-	for(int i=1; i<=n; i++)
+	for(i=1;i<=n;i++)
 	{
-		cin>>a[i];
+		if(n%i==0)
+		{
+			cout<<i<<endl;
+			count++;
+		}
 	}
-	return 0;
+	if(count==2)
+	{
+		cout<<"prime";
+	}
+	else
+	cout<<"not prime";
 }
