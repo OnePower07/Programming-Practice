@@ -2,7 +2,6 @@
 using namespace std;
 int binarysearch(int arr[],int l,int h,int key)
 {
-
   int mid;
   while(l<=h)
   {
